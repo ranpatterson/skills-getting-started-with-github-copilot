@@ -142,3 +142,32 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participants {
+  margin-top: 12px;
+  padding: 12px;
+  border-top: 1px solid #e0e0e0;
+  background-color: #f1f4ff;
+  border-radius: 4px;
+}
+
+.participants h5 {
+  margin-bottom: 8px;
+  color: #1a237e;
+  font-size: 15px;
+}
+
+.participants ul {
+  padding-left: 18px;
+  margin: 0;
+  color: #333;
+}
+
+.participants li + li {
+  margin-top: 4px;
+}
+
+.participants .empty {
+  color: #666;
+  list-style: circle;
+}
